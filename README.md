@@ -1,6 +1,8 @@
-# Programming-101-Python-2019
+# Programming 101 with Python - 2019
 
 Repo for the course "Programming 101 with Python", starting end of February 2019.
+
+This is going to be the 8th edition of the course.
 
 ## Agenda
 
