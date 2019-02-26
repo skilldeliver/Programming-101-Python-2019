@@ -11,7 +11,7 @@
 
 ## Agenda
 
-* Intro slides - HERE.
+* [Intro slides](https://docs.google.com/presentation/d/1hTm1nJPD8oUXKKlOLr0vrJsyCrctjsURXWz9iRl_Y3c/edit?usp=sharing)
 * Getting familiar with Sublime / another editor.
 * Getting familiar with the terminal.
 * Running Python scripts from the termial.
