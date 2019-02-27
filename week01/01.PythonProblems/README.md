@@ -62,7 +62,7 @@ Keep in mind that in Python, there is a special operator for integer division!
 
 ```python
 def sum_of_digits(n):
-	pass
+    pass
 ```
 
 ### Test examples
