@@ -134,7 +134,7 @@ For example, if n = 145, we want 1! + 4! + 5!
 
 ```python
 def fact_digits(n):
-	pass
+    pass
 ```
 
 ### Test examples
@@ -405,11 +405,11 @@ Your task is to count the occurences of a `word` in the table. The word can be f
 Find the word `ivan` in the table:
 
 | i    | v     | a     | n     |
-|---   |---    |---    |---    |
-| e    | **v** | **n** | h     |
-| i    | n     | **a** | v     |
-| m    | v     | **v** | **n** |
-| q    | r     | **i** | t     |
+|------|---    |-------|-------|
+| e    | *v*   | *n*   | h     |
+| i    | n     | *a*   | v     |
+| m    | v     | *v*   | *n*   |
+| q    | r     | *i*   | t     |
 
 Result:
 ```
@@ -428,11 +428,11 @@ Note: If the word you are looking for is longer than the length of your rows, co
 ```
 ivan
 5 4
-i v	a n
+i v a n
 e v n h
-i n	a v
-m v	v n
-q r	i t
+i n a v
+m v v n
+q r i t
 ```
 
 Should print:
