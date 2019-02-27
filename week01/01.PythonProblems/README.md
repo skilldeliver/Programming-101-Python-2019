@@ -1,10 +1,49 @@
 Python Problems
 ==============
 
+- [Sum of all digits of a number](#sum-of-all-digits-of-a-number)
+    - [Signature ](#signature-)
+    - [Test examples](#test-examples)
+- [Turn a number into a list of digits](#turn-a-number-into-a-list-of-digits)
+    - [Signature ](#signature--1)
+    - [Test examples](#test-examples-1)
+- [Turn a list of digits into a number](#turn-a-list-of-digits-into-a-number)
+    - [Signature ](#signature--2)
+    - [Test examples](#test-examples-2)
+- [Factorial Digits](#factorial-digits)
+    - [Signature ](#signature--3)
+    - [Test examples](#test-examples-3)
+- [Palindrome](#palindrome)
+    - [Signature ](#signature--4)
+    - [Test examples](#test-examples-4)
+- [Vowels in a string](#vowels-in-a-string)
+    - [Signature ](#signature--5)
+    - [Test examples](#test-examples-5)
+- [Consonants in a string](#consonants-in-a-string)
+    - [Signature ](#signature--6)
+    - [Test examples](#test-examples-6)
+- [Char Histogram](#char-histogram)
+    - [Signature ](#signature--7)
+    - [Test examples](#test-examples-7)
+- [Sum Numbers in Matrix](#sum-numbers-in-matrix)
+    - [Examples:](#examples)
+- [NaN Expand](#nan-expand)
+    - [Examples](#examples-1)
+- [Integer prime factorization](#integer-prime-factorization)
+    - [Signature](#signature)
+    - [Test examples](#test-examples-8)
+- [The group function](#the-group-function)
+- [Longest subsequence of equal consecutive elements](#longest-subsequence-of-equal-consecutive-elements)
+    - [Signature](#signature-1)
+    - [Test examples](#test-examples-9)
+- [Word counter](#word-counter)
+    - [For example:](#for-example)
+    - [Example inputs:](#example-inputs)
+
+
 In a file called `week1_solutions.py`, solve the following problems:
 
-Sum of all digits of a number
-----------------
+## Sum of all digits of a number
 
 Given an integer, implement a function, called `sum_of_digits(n)` that calculates the sum of n's digits.
 
@@ -19,7 +58,7 @@ Keep in mind that in Python, there is a special operator for integer division!
 2
 ```
 
-## Signature 
+### Signature 
 
 ```python
 def sum_of_digits(n):
@@ -39,12 +78,11 @@ def sum_of_digits(n):
 1
 ```
 
-Turn a number into a list of digits
-----------------
+## Turn a number into a list of digits
 
 Implement a function, called `to_digits(n)`, which takes an integer `n` and returns a list, containing the digits of `n`.
 
-## Signature 
+### Signature 
 
 ```python
 def to_digits(n):
@@ -62,12 +100,11 @@ def to_digits(n):
 [1, 2, 3, 0, 2, 3]
 ```
 
-Turn a list of digits into a number
-----------------
+## Turn a list of digits into a number
 
 Implement a function, called to_number(digits), which takes a list of integers - digits and returns the number, containing those digits.
 
-## Signature 
+### Signature 
 
 ```python
 def to_number(digits):
@@ -87,14 +124,13 @@ def to_number(digits):
 21233
 ```
 
-Factorial Digits
-----------------
+## Factorial Digits
 
 Implement a function `fact_digits(n)`, that takes an integer and returns the sum of the factorials of each digit of `n`.
 
 For example, if n = 145, we want 1! + 4! + 5!
 
-## Signature 
+### Signature 
 
 ```python
 def fact_digits(n):
@@ -112,15 +148,15 @@ def fact_digits(n):
 1088640
 ```
 
-Palindrome
-----------------
+## Palindrome
 
 Implement a function, called `palindrome(obj)`, which takes an object (could be anything) and checks if it's string representation is a palindrome.
 
 For example, the integer `121` and the string `"kapak"` are palindromes. The function should work with both..
 
 **Hint - check Python's [str()](https://docs.python.org/3/library/stdtypes.html#str) function**
-## Signature 
+
+### Signature 
 
 ```python
 def palindrome(n):
@@ -138,8 +174,7 @@ True
 False
 ```
 
-Vowels in a string
-----------------
+## Vowels in a string
 
 Implement a function, called `count_vowels(str)`, which returns the count of all vowels in the string `str`.
 
@@ -147,7 +182,7 @@ Implement a function, called `count_vowels(str)`, which returns the count of all
 
 The English vowels are `aeiouy`.
 
-## Signature 
+### Signature 
 
 ```python
 def count_vowels(str):
@@ -169,8 +204,7 @@ def count_vowels(str):
 8
 ```
 
-Consonants in a string
-----------------
+## Consonants in a string
 
 Implement a function, called `count_consonants(str)`, which returns the count of all consonants in the string `str`.
 
@@ -178,7 +212,7 @@ Implement a function, called `count_consonants(str)`, which returns the count of
 
 The English consonants are `bcdfghjklmnpqrstvwxz`.
 
-## Signature 
+### Signature 
 
 ```python
 def count_consonants(str):
@@ -200,12 +234,11 @@ def count_consonants(str):
 6
 ```
 
-Char Histogram
-----------------
+## Char Histogram
 
 Implement a funcion, called `char_histogram(string)`, which takes a string and returns a dictionary, where each key is a character from `string` and its value is the number of occurrences of that char in `string`.
 
-## Signature 
+### Signature 
 
 ```python
 def char_histogram(string):
@@ -222,7 +255,6 @@ def char_histogram(string):
 ```
 
 ## Sum Numbers in Matrix
-----------------
 
 You are given a `NxM` matrix  of integer numbers.
 
@@ -246,7 +278,6 @@ The matrix will be represented as nested lists in Python.
 
 
 ## NaN Expand
-----------------
 
 In most programming languages, `NaN` stands for `Not a Number`.
 
@@ -282,7 +313,6 @@ For example:
 
 
 ## Integer prime factorization
-----------------
 
 Given an integer `n`, we can factor it in the following form:
 
@@ -330,7 +360,6 @@ def prime_factorization(n):
 
 
 ## The group function
-----------------
 
 We are going to implement a very helpful function, called `group`.
 
@@ -345,7 +374,6 @@ group([1, 2, 1, 2, 3, 3]) == [[1], [2], [1], [2], [3, 3]]
 ```
 
 ## Longest subsequence of equal consecutive elements
-----------------
 
 Implement the function `max_consecutive(items)`, which takes a list of things and returns an integer - the count of elements in the longest subsequence of equal consecutive elements.
 
@@ -367,10 +395,7 @@ def max_consecutive(items):
 3
 ```
 
-
-
 ## Word counter
-----------------
 
 You are given a rectangular table filled with characters and a `word`.
 Your task is to count the occurences of a `word` in the table. The word can be found horizontaly, vertically and across both left to right and right to left.
@@ -396,9 +421,9 @@ Then input the characters into the table.
 
 Note: If the word you are looking for is longer than the length of your rows, columns or diagonals, you need to return message to the user that the input was invalid.
 
-## Example inputs:
+### Example inputs:
 
-### Example 1:
+#### Example 1:
 
 ```
 ivan
@@ -416,7 +441,7 @@ Should print:
 3
 ```
 
-### Example 2:
+#### Example 2:
 
 ```
 actually
@@ -437,7 +462,7 @@ Should print:
 4
 ```
 
-### Example 3:
+#### Example 3:
 
 ```
 madam
@@ -460,7 +485,7 @@ Should print:
 Notice that this should print 3, not 6!
 
 
-### Example 4:
+#### Example 4:
 
 ```
 table
