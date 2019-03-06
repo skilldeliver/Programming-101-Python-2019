@@ -8,9 +8,8 @@ This is going to be the 8th edition of the course.
 
 The course is happening thanks to:
 
-[![Nemetschek Bulgaria](/partners/nemetschek.jpg)](https://www.nemetschek.bg/)
-[![Industria](/partners/industria.png)](https://www.industria.tech/)
-[![HackSoft](/partners/hacksoft.png)](https://www.hacksoft.io/)
+| [![Nemetschek Bulgaria](/partners/nemetschek.jpg)](https://www.nemetschek.bg/) | [![Industria](/partners/industria.png)](https://www.industria.tech/) | [![HackSoft](/partners/hacksoft.png)](https://www.hacksoft.io/) |
+|-----|--------|--------|
 
 ## Agenda
 
