@@ -10,7 +10,7 @@ But there is a problem - if we have `..` and `.` in our file path, it's not clea
 * `.`  means to stay in the same directory
 * we can have more then one `/` between the directories - `/home//code`
 
-So for example : `/home//rositsazz/courses/./Programming-101-Python-2019/week02/../` reduces to `/home/rositsazz/courses/Programming-101-Python-2019/week02`.
+So for example : `/home//rositsazz/courses/./Programming-101-Python-2019/week02/../` reduces to `/home/rositsazz/courses/Programming-101-Python-2019/`.
 
 
 Implement a function, called `reduce_file_path(path)` which takes a string and returns the reduced version of the path.
