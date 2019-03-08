@@ -50,7 +50,7 @@ Congratulations!
 
 If the player cannot guess the word in ten tries, the game ends and the user should receive this final message!
 
-```python3
+```
 You lost!
  _________
 |    |    |
