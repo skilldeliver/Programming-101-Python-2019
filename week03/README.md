@@ -11,4 +11,4 @@
 
 ## Unit Tests
 
-* [presentation](https://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-100s)
+* [presentation](https://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-100/)
