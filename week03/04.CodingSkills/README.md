@@ -21,7 +21,7 @@ C# - Pavli Pavli
 Haskell - Rado Rado
 Java - Rado Rado
 JavaScript - Rosi Rosi
-Ruby - Magi Magi
+Ruby - Rosi Rosi
 CSS - Pavli Pavli
 C - Cherna Ninja
 ```
