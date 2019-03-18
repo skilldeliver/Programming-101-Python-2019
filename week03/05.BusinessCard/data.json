@@ -57,7 +57,7 @@
         "birth_place": "Sofia",
         "gender": "female",
         "interests": ["eating", "sleeping"],
-        "avatar": "Rosi.png",
+        "avatar": "rosi.png",
         "skills": [{
             "name": "JavaScript",
             "level": 62
