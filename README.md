@@ -11,6 +11,10 @@ The course is happening thanks to:
 | [![Nemetschek Bulgaria](/partners/nemetschek.jpg)](https://www.nemetschek.bg/) | [![Industria](/partners/industria.png)](https://www.industria.tech/) | [![HackSoft](/partners/hacksoft.png)](https://www.hacksoft.io/) |
 |-----|--------|--------|
 
+| [![Acronis](/partners/acronis.png)](https://www.acronis.com/en-eu/) | [![HedgeServ](/partners/hedgeserv.png)](https://www.hedgeserv.com/) |
+|-----|--------|
+
+
 ## Agenda
 
 The course is about learning how to write software with Python. It's perfect for people that are going to start as junior developers afterwards.
