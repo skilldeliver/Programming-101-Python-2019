@@ -11,7 +11,7 @@ The course is happening thanks to:
 | [![Nemetschek Bulgaria](/partners/nemetschek.jpg)](https://www.nemetschek.bg/) | [![Industria](/partners/industria.png)](https://www.industria.tech/) | [![HackSoft](/partners/hacksoft.png)](https://www.hacksoft.io/) |
 |-----|--------|--------|
 
-| [![Acronis](/partners/acronis.png)](https://www.acronis.com/en-eu/) | [![HedgeServ](/partners/hedgeserv.png)](https://www.hedgeserv.com/) |
+| [![Acronis](/partners/acronis.png)](https://www.acronis.com/en-eu/) | [![HedgeServ](/partners/hedgeserv.png)](https://www.hedgeserv.com/career/) |
 |-----|--------|
 
 
