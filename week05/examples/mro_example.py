@@ -18,7 +18,7 @@ class B(Y, X):  # Change Z to X
     pass
 
 
-class M(A, Z):  # Switch B and A
+class M(B, A, Z):  # Switch B and A
     pass
 
 

@@ -4,7 +4,9 @@ class A:
 
 
 class B(A):
-    pass
+    # SECOND: Try delete this method and see what happens
+    def foo(self):
+        print('I am in B')
 
 
 class C(A):
@@ -13,9 +15,10 @@ class C(A):
 
 
 class D(B, C):
-    pass
+    # FIRST: Try delete this method and see what happens
+    def foo(self):
+        print('I am in D')
 
 
 bar = D()
 bar.foo()
-# print(D.mro())
