@@ -3,3 +3,7 @@
 ## Decorators
 
 * [presentation](https://slides.com/hackbulgaria/copy-of-107)
+
+## Generators
+
+## Context Managers
