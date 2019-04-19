@@ -83,7 +83,7 @@ data = {
 
 Your task for today is to make your mixins from [week05]() to work with nested objects.
 
-## Example:
+#### Example:
 Let's say you have `class Human` and each human has some skills (`class Skill`). If you initialize your object like this:
 ```python
     marto = Human(
@@ -127,7 +127,7 @@ Calling `marto.to_json()` should look like this:
 }
 ```
 
-## Notes
+#### Notes
 
 * `from_json()` should also work for nested objects
 * Xmlable should work as well
