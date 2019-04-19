@@ -1,7 +1,3 @@
-## Slides
-
-https://slides.com/hackbulgaria/deck-113/#/
-
 ## Tasks
 
 Every dictionary in the following tasks can have another dictionary as value or a iterable of dictionaries.
