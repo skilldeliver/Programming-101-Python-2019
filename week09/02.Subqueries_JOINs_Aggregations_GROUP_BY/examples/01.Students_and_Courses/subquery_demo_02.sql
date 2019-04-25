@@ -5,9 +5,9 @@ SELECT student.name,
        (SELECT student_to_course.course_id
         FROM student_to_course
         WHERE student_to_course.student_id == student.id
-        LIMIT 1) ) as course_name
+        LIMIT 3) ) as course_name
 FROM student
-WHERE 0 == (SELECT COUNT(*)
+WHERE 1 == (SELECT COUNT(*)
      FROM student_to_course
      WHERE student_to_course.student_id == student.id);
 
@@ -16,9 +16,9 @@ WHERE 0 == (SELECT COUNT(*)
 	```
 	SELECT student.name, <subquery>
 		FROM student
-        WHERE 1 == <second_subquery>;
+        WHERE 3 == <second_subquery>;
 	```
-    => Взима "име на студента" + резултата от subquery-то от student, където резултатът от втората подзаявка е 0
+    => Взима "име на студента" + резултата от subquery-то от student, където резултатът от втората подзаявка е точно 1
 
 2. Първата подзаявка:
 	```
@@ -33,12 +33,12 @@ WHERE 0 == (SELECT COUNT(*)
 	SELECT student_to_course.course_id
 		FROM student_to_course
 		WHERE student_to_course.student_id == student.id
-		LIMIT 1
+		LIMIT 3
 	```
-	=> Взима id-тата на курса от student_to_course таблицата, там където id-то на студента е същото като id-то на студента от най-външната заявка като ще вземе максимум 1 резултат (LIMIT 1).
+	=> Взима id-тата на курса от student_to_course таблицата, там където id-то на студента е същото като id-то на студента от най-външната заявка като ще вземе максимум 3 резултат (LIMIT 1).
 		С други думи взимаме id-то на курса първият срещнат student_to_course запис за този студент.
 
-4. Заявката в WHERE-а
+4. Подзаявката в WHERE-а
 	```
 	SELECT COUNT(*)
 		FROM student_to_course
