@@ -4,6 +4,24 @@
 NOTE: Има коментари в sql файловете :wink:
 
 
+schema на базата - `students_and_courses_schema.sql`
+
+В базата има 3 таблици:
+
+1. `student`
+  - id - primary key
+  - name - varcher
+
+2. `course`
+  - id - primary key
+  - language - varcher
+  - year - integer
+
+3. `student_to_course`
+  - id - primary key
+  - student_id - foreign key към `student`
+  - course_id - foreign key към `course`
+
 ## Примери за Subqueries
 
 1. `subquery_demo_01.sql` - взима всички студенти с техните курсове. Ако има студент с повече от 1 курс, взимаме първия. Ако има студент, който не е участвал в нито един курс, връщаме `null` в колоната на курса. (`име на студент` + `име на курса` + `година на курса`)
