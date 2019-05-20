@@ -1,26 +1,15 @@
 class User:
-    db = Database()
 
-    def __init__(self, username, password, status=None):
+    def __init__(self, username, password, status=None, email=None):
         self.username = username
         self.password = password
         self._status = status
-
-    @classmethod
-    def find(cls, username, password):
-        result = cls.db.find_user(username, password)
-        if result:
-            return cls(username, password, result['status'])
-
-    @classmethod
-    def create_new_user(cls, username, hashed_pass, **kwargs):
-        try:
-            # TODO check kwargs
-            cls.db.create_user(username, password, **kwargs)
-        except DatabaseConnectionError:
-            sys.exit(1)
-        return cls(username, password, **kwargs)
+        self._email = email
 
     @property
-    def status:
+    def status(self):
         return self._status
+
+    @property
+    def email(self):
+        return self._email
