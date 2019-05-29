@@ -56,7 +56,7 @@ ROOT_URLCONF = 'HackAirlines.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['my_custom_templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
