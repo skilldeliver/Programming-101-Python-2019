@@ -1,0 +1,13 @@
+{% extends 'planes/base.html' %}
+
+{% block content %}
+{{errors}}
+<form method='post'>
+    {% csrf_token %}
+    {{form}}
+
+    <input type='submit' name='Create flight'/>
+ 
+</form>
+
+{% endblock %}
